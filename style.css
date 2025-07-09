@@ -1,0 +1,370 @@
+
+
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+
+.merriweather-normal {
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    margin-top: 130px;
+}
+.extra-elememt{
+    color:#FF0000;
+}
+/* header-section*/
+.hdti{
+    padding: 200px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.header{
+    
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) ,url(images/Banner\ Image.png);
+    width: 1320px;
+    height: 600px;
+    text-align: center;
+    margin: 0px auto;
+    border-radius: 10px;
+    justify-content: center;
+    
+    
+}
+.first-title{
+    
+    font-size: 32px;
+    font-weight: 400;
+    color: #ffffff;
+    
+}
+.second-title{
+    font-size:72px ;
+    font-weight: 800;
+    color: #ffffff;
+    
+}
+/*offer section*/
+.offer{
+    text-align: center;
+    margin: 100px 400px;
+    
+
+}
+.off{
+    margin: 50px;
+    color:#FF0000;
+    font-size: 88px;
+    font-weight: bold;
+    
+}
+.off-description{
+    color: #FF0000;
+    font-size: 20px;
+    margin-bottom: 10px;
+    
+
+}
+.off-title{
+    font-size: 48px;
+    font-weight: bold;
+    color: #070211;
+    
+}
+/*wellcome-sectionn*/
+.wellcome{
+    margin: 0px auto;
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) , url(images/Vectorrr.png);
+    height: 600px;
+    width: 1320px;
+    place-items: center;
+    /*margin: 100px 141px 0px 140px;*/
+    display: flex;
+    justify-content: center;
+    padding:120px;
+    border-radius: 10px;
+    
+    
+    
+    
+
+}
+.wellcome-title{
+    font-size: 64px;
+    font-weight: bold;
+    color:#ffffff;
+    letter-spacing: 5px;
+}
+.wellcome-description{
+    font-size: 18px;   
+    color:#ffffff;
+    margin-top: 50px;
+
+}
+.wellcome-btn{
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: bold;
+    background-color:#070211;
+    margin-top: 80px;
+    padding: 13px;
+}
+.wellcome-container{
+    
+}
+.wellcome-image{
+   
+}
+/*place-time*/
+.place-container{
+    font-size: 32px;
+    font-weight: 600;
+    color: #070211;
+    margin: 20px;
+}
+.place-container span{
+    color: #FF0000;
+}
+.buttob button{
+    color:#ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #FF0000;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 30px;
+    border :1 px #FF0000;
+}
+.place{
+    width: 1320px;
+    height: 482px;
+    text-align: center;
+    margin:100px auto;
+    background-image:linear-gradient(to top, rgb(255, 255, 255) , rgb(239, 73, 73));
+    padding: 200px;
+    border-radius: 10px;
+}
+.red-title{
+    color: #FF0000;
+    font-size: 24px;
+
+}
+.black-title{
+    font-size: 48px;
+    font-weight:bold ;
+}
+.soon-description{
+    color:#070211;
+    font-size: 20px;
+}
+.img-circle{
+    
+    width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  border: 10px solid red; 
+  display: flex;
+  justify-content: center;
+  
+  background-color: white; 
+  padding: 15px;
+  box-sizing: border-box;
+}
+.year-two{
+    font-size: 48px;
+    font-weight: bold;
+    color: #FF0000;
+    margin-top: 20px;
+}
+.year-description{
+    font-size: 20px;
+    color:#070211 ; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.back-year{
+   
+}
+.comming-soon{
+    display: flex;
+    margin: 100px auto;
+    
+    align-items: center;
+    height: 600px;
+    width: 1320px;
+    padding:120px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    justify-content: space-between;
+    gap: 100px;
+    background-color: #ffffff;
+    
+}
+/*holiday-section*/
+.holi-shot{
+    font-size: 20px;
+    color: #070211;
+}
+.holiday-lont{
+    font-size:72px ;
+    color: #070211;
+}
+.holi-description{
+    font-size: 20px;
+    color: #070211;
+    padding:0px auto;
+    margin-top: 50px;
+    
+
+}
+.holiday-sht{
+    align-items: center;
+    text-align: center;
+    margin:0px auto;
+    width: 1320px;
+    height: 980px;
+
+
+}
+
+
+.hoi-img2{
+    
+    margin-top: 50px;
+    text-align: left;
+   
+    
+
+}
+.imag-item{ 
+    background-image: url(images/Rectangle\ 2.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    display: block;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.img3{
+   padding: 50px;
+   margin-bottom: 80px;
+    
+}
+/*gift-section*/
+.gift-small-title{
+    color: #FF0000;
+    font-size: 24px;
+    margin-top: 20px;
+}
+.gift-big-title{
+    color: #070211;
+    font-size: 48px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.gift-description{
+    font-size: 20px;
+    color: #070211;
+    margin-top: 20px;
+}
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    gap: 20px;
+    
+}
+
+.gift{
+    margin: 0px auto;
+    height: 1163px;
+    width: 1320px;
+    margin-top: 100px;
+}
+/*subscribe-section*/
+.suscribe22{
+    
+}
+.subscribe{
+    width: 1320px;
+    height: 616px;
+    background-image: linear-gradient(to top, #ffcccc,#ffccff);
+    margin: 0px auto;
+    align-items: center;
+    margin-top: 100px;
+    padding: 170px;
+}
+.subscribe{
+    text-align: center;
+    background: linear-gradient(to top #ffcccc,#ffccff);
+}
+.subs-title{
+    font-size: 48px;
+    font-weight: bold;
+    color: #070211;
+    margin-bottom: 20px ;
+}
+.sub-descrip{
+    font-size: 20px;
+    color:#070211;
+    margin-bottom: 20px ;
+    padding: 20px 200px;
+}
+.email2{
+    padding: 20px;
+    border-bottom-left-radius:  30px ;
+    border-top-left-radius: 30px;
+    font-size: 18px;
+}
+.subs-btn{
+    padding: 20px;
+    background-color: #FF0000;
+    color: #ffffff;
+    font-size: 18px;
+    border-bottom-right-radius:  30px ;
+    border-top-right-radius: 30px;
+}
+.bitton{
+    gap: 0px;
+}
+/*footer*/
+.footer{
+    background-color: #070211;
+    margin-top: 100px;
+    background-size: cover;
+    
+    padding:120px 240px ;
+}
+.address1 ,.phon-web,.cpoy-1, .unsi{
+    color: #ffffff;
+    font-size:24px ;
+}
+.footer-address{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 30px;
+}
+ .footer-address hr{
+    color: #090318;
+}
+.logo{
+    text-align: center;
+    align-items: center;
+    padding: 30px;
+    
+}
+.copyright{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
