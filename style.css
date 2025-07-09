@@ -325,6 +325,7 @@ body{
     border-bottom-left-radius:  30px ;
     border-top-left-radius: 30px;
     font-size: 18px;
+    border: 1px solid rgb(252, 252, 252);
 }
 .subs-btn{
     padding: 20px;
@@ -333,6 +334,7 @@ body{
     font-size: 18px;
     border-bottom-right-radius:  30px ;
     border-top-right-radius: 30px;
+    border: 1px solid red;
 }
 .bitton{
     gap: 0px;
